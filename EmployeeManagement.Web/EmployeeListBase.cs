@@ -5,7 +5,7 @@ namespace EmployeeManagement
 {
     public class EmployeeListBase : ComponentBase
     {
-        public IEnumerable<Employee> Employees { get; set; }
+        public IEnumerable<Employee>? Employees { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
@@ -16,6 +16,7 @@ namespace EmployeeManagement
 
         private void LoadEmployees()
         {
+            System.Threading.Thread.Sleep(2000);
             Employee e1 = new Employee
             {
                 EmployeeId = 1,
@@ -24,7 +25,7 @@ namespace EmployeeManagement
                 Email = "David@pragimtech.com",
                 DateOfBrith = new DateTime(1980, 10, 5),
                 Gender = Gender.Male,
-                Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+                DepartmentId = new Department { DepartmentId = 1, DepartmentName = "IT" },
                 PhotoPath = "images/john.png"
             };
 
@@ -36,7 +37,7 @@ namespace EmployeeManagement
                 Email = "Sam@pragimtech.com",
                 DateOfBrith = new DateTime(1981, 12, 22),
                 Gender = Gender.Male,
-                Department = new Department { DepartmentId = 2, DepartmentName = "HR" },
+                DepartmentId = new Department { DepartmentId = 2, DepartmentName = "HR" },
                 PhotoPath = "images/sam.jpg"
             };
 
@@ -48,7 +49,7 @@ namespace EmployeeManagement
                 Email = "mary@pragimtech.com",
                 DateOfBrith = new DateTime(1979, 11, 11),
                 Gender = Gender.Female,
-                Department = new Department { DepartmentId = 1, DepartmentName = "IT" },
+                DepartmentId = new Department { DepartmentId = 1, DepartmentName = "IT" },
                 PhotoPath = "images/mary.png"
             };
 
@@ -60,7 +61,7 @@ namespace EmployeeManagement
                 Email = "sara@pragimtech.com",
                 DateOfBrith = new DateTime(1982, 9, 23),
                 Gender = Gender.Female,
-                Department = new Department { DepartmentId = 3, DepartmentName = "Payroll" },
+                DepartmentId = new Department { DepartmentId = 3, DepartmentName = "Payroll" },
                 PhotoPath = "images/sara.png"
             };
 

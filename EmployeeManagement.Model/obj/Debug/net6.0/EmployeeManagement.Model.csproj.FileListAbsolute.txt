@@ -20,3 +20,5 @@ D:\GitHub\EmployeeManagement\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeM
 D:\GitHub\EmployeeManagement\EmployeeManagement.Model\obj\Debug\net6.0\refint\EmployeeManagement.Model.dll
 D:\GitHub\EmployeeManagement\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.pdb
 D:\GitHub\EmployeeManagement\EmployeeManagement.Model\obj\Debug\net6.0\ref\EmployeeManagement.Model.dll
+D:\GitHub\EmployeeManagement\EmployeeManagement.Model\bin\Debug\net6.0\EmployeeManagement.Model.runtimeconfig.json
+D:\GitHub\EmployeeManagement\EmployeeManagement.Model\obj\Debug\net6.0\EmployeeManagement.Model.genruntimeconfig.cache

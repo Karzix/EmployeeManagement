@@ -1,11 +1,22 @@
 {
   "Version": 1,
-  "Hash": "HJT9M7/qoa4LTnatbZKLIoGvLpggxq0Vfe14cYfXOhY=",
+  "Hash": "BkW1ujM71+A6R35nN2FvsQcKnAC8UxFbw5adHAa+qS0=",
   "Source": "EmployeeManagement.Web",
   "BasePath": "_content/EmployeeManagement.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\GitHub\\EmployeeManagement\\EmployeeManagement.Api\\EmployeeManagement.Api.csproj",
+      "Version": 2,
+      "Source": "EmployeeManagement.Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
     {
       "Identity": "D:\\GitHub\\EmployeeManagement\\EmployeeManagement.Model\\EmployeeManagement.Model.csproj",
       "Version": 2,
